@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Material Design</title>
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+      <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    </head>
+  </head>
+  <body>
+    <h1><a href="https://material.io/develop/web/docs/getting-started" target="_blank">Getting Started With Material</a></h1>
+    <!-- Mention This -->
+    <div class="">
+      <div class="mdc-card mdc-card--outlined">
+        <button class="mdc-button foo-button">
+          <div class="mdc-button__ripple"></div>
+          <span class="mdc-button__label">Button</span>
+        </button>
+      </div>
+    </div>
+    <br>
+    <ul class="mdc-list">
+      <li class="mdc-list-item" tabindex="0">
+        <span class="mdc-list-item__ripple"></span>
+        <span class="mdc-list-item__text">Single-line item</span>
+      </li>
+      <li class="mdc-list-item">
+        <span class="mdc-list-item__ripple"></span>
+        <span class="mdc-list-item__text">Single-line item</span>
+      </li>
+      <li class="mdc-list-item">
+        <span class="mdc-list-item__ripple"></span>
+        <span class="mdc-list-item__text">Single-line item</span>
+      </li>
+    </ul>
+    <ul class="mdc-list" role="group" aria-label="List with checkbox items">
+      <li class="mdc-list-item" role="checkbox" aria-checked="false">
+        <span class="mdc-list-item__ripple"></span>
+        <span class="mdc-list-item__graphic">
+          <div class="mdc-checkbox">
+            <input type="checkbox"
+                    class="mdc-checkbox__native-control"
+                    id="demo-list-checkbox-item-1"  />
+            <div class="mdc-checkbox__background">
+              <svg class="mdc-checkbox__checkmark"
+                    viewBox="0 0 24 24">
+                <path class="mdc-checkbox__checkmark-path"
+                      fill="none"
+                      d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+              </svg>
+              <div class="mdc-checkbox__mixedmark"></div>
+            </div>
+          </div>
+        </span>
+        <label class="mdc-list-item__text" for="demo-list-checkbox-item-1">Option 1</label>
+      </li>
+      <li class="mdc-list-item" role="checkbox" aria-checked="true" tabindex="0">
+        <span class="mdc-list-item__ripple"></span>
+        <span class="mdc-list-item__graphic">
+            <div class="mdc-checkbox">
+                <input type="checkbox"
+                        class="mdc-checkbox__native-control"
+                        id="demo-list-checkbox-item-2"
+                        checked />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark"
+                        viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path"
+                          fill="none"
+                          d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+              </div>
+        </span>
+        <label class="mdc-list-item__text" for="demo-list-checkbox-item-2">Option 2</label>
+      </li>
+      <li class="mdc-list-item" role="checkbox" aria-checked="false">
+        <span class="mdc-list-item__ripple"></span>
+        <span class="mdc-list-item__graphic">
+            <div class="mdc-checkbox">
+                <input type="checkbox"
+                        class="mdc-checkbox__native-control"
+                        id="demo-list-checkbox-item-3" />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark"
+                        viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path"
+                          fill="none"
+                          d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+              </div>
+        </span>
+        <label class="mdc-list-item__text" for="demo-list-checkbox-item-3">Option 3</label>
+      </li>
+    </ul>
+  </body>
+</html>
